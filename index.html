@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Graduation Day 2026</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -190,7 +195,12 @@ canvas#fx { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 60; p
   body.open .inner > * { animation: none; }
   .panel, .seal-wrap { transition: none; }
 }
+[hidden]{display:none!important}
+img{max-width:100%}
 </style>
+</head>
+<body>
+
 
 <div class="gate" id="gate">
   <div class="panel top"></div>
@@ -426,3 +436,6 @@ var fx = (function () {
   document.getElementById("celebrate").addEventListener("click", function () { fx.burst(130); });
 })();
 </script>
+
+</body>
+</html>
